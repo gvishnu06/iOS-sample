@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="703-4V-yAM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="clB-vc-fyl">
+            <objects>
+                <viewController id="703-4V-yAM" customClass="RootViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I7W-xW-C47"/>
+                        <viewControllerLayoutGuide type="bottom" id="IfR-02-kHw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="502-Ir-ELC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q3h-pU-vEd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-101" y="-243"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="thN-Rg-YgV">
+            <objects>
+                <viewController storyboardIdentifier="WebViewController" id="aRr-YT-u0b" customClass="WebViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PUa-Dk-Q7G"/>
+                        <viewControllerLayoutGuide type="bottom" id="CX6-tY-55x"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8vd-f1-C7e">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hIs-s5-WdK">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="gwG-6I-uR0">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                                <animations/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hIs-s5-WdK" firstAttribute="height" secondItem="8vd-f1-C7e" secondAttribute="height" id="OUv-7o-Vz1"/>
+                            <constraint firstItem="gwG-6I-uR0" firstAttribute="centerX" secondItem="8vd-f1-C7e" secondAttribute="centerX" id="PMp-Xj-E0y"/>
+                            <constraint firstItem="gwG-6I-uR0" firstAttribute="centerY" secondItem="8vd-f1-C7e" secondAttribute="centerY" id="bNz-QZ-if7"/>
+                            <constraint firstItem="hIs-s5-WdK" firstAttribute="centerX" secondItem="8vd-f1-C7e" secondAttribute="centerX" id="qa3-4g-jaw"/>
+                            <constraint firstItem="hIs-s5-WdK" firstAttribute="centerY" secondItem="8vd-f1-C7e" secondAttribute="centerY" id="xMP-7I-ih7"/>
+                            <constraint firstItem="hIs-s5-WdK" firstAttribute="width" secondItem="8vd-f1-C7e" secondAttribute="width" id="yjz-vv-CkG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="gwG-6I-uR0" id="bRk-f1-tht"/>
+                        <outlet property="webView" destination="hIs-s5-WdK" id="4bw-eX-BDr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rS8-ZP-OOQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="600" y="-972"/>
+        </scene>
+        <!--Data View Controller-->
+        <scene sceneID="snT-py-3hH">
+            <objects>
+                <viewController storyboardIdentifier="DataViewController" id="S4R-Ja-viH" customClass="DataViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fXf-Jd-eTc"/>
+                        <viewControllerLayoutGuide type="bottom" id="EPS-s9-h4K"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ZwX-cT-FIQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPk-UU-3n5">
+                                <rect key="frame" x="33" y="44" width="534" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Click Me"/>
+                                <connections>
+                                    <action selector="clickAction:" destination="S4R-Ja-viH" eventType="touchUpInside" id="KfJ-dN-9cO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCy-4K-mJu">
+                                <rect key="frame" x="33" y="104" width="534" height="46.5"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46.5" id="SNM-7y-2Ci"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="sCy-4K-mJu" secondAttribute="trailing" constant="13" id="58q-jL-Acg"/>
+                            <constraint firstItem="sCy-4K-mJu" firstAttribute="top" secondItem="DPk-UU-3n5" secondAttribute="bottom" constant="30" id="Fgu-vh-iGQ"/>
+                            <constraint firstItem="sCy-4K-mJu" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" constant="13" id="UFw-X3-pkc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DPk-UU-3n5" secondAttribute="trailing" constant="13" id="gsw-jg-2dl"/>
+                            <constraint firstItem="DPk-UU-3n5" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" constant="13" id="mpp-cd-cTq"/>
+                            <constraint firstItem="DPk-UU-3n5" firstAttribute="top" secondItem="fXf-Jd-eTc" secondAttribute="bottom" constant="24" id="u9i-7o-4hj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clickButton" destination="DPk-UU-3n5" id="bWo-OC-30H"/>
+                        <outlet property="dataLabel" destination="sCy-4K-mJu" id="jMp-HC-BRh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GmD-Rr-ZGN" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="597" y="-243"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="rfu-Sf-wDs">
+            <objects>
+                <viewController storyboardIdentifier="ImageViewController" id="gz7-OW-e16" customClass="ImageViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zws-x1-owl"/>
+                        <viewControllerLayoutGuide type="bottom" id="gh9-ZV-kRJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h49-ww-oMx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rag-4D-UPu">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rag-4D-UPu" firstAttribute="centerY" secondItem="h49-ww-oMx" secondAttribute="centerY" id="7lQ-eP-8Fu"/>
+                            <constraint firstItem="Rag-4D-UPu" firstAttribute="width" secondItem="h49-ww-oMx" secondAttribute="width" id="lBN-uz-pzW"/>
+                            <constraint firstItem="Rag-4D-UPu" firstAttribute="height" secondItem="h49-ww-oMx" secondAttribute="height" id="lWF-3U-JTQ"/>
+                            <constraint firstItem="Rag-4D-UPu" firstAttribute="centerX" secondItem="h49-ww-oMx" secondAttribute="centerX" id="z6M-B7-ayo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Rag-4D-UPu" id="oh8-iT-k8u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qhg-TG-RQ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="600" y="483"/>
+        </scene>
+    </scenes>
+</document>

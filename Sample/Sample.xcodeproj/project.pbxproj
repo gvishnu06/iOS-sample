@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		275F10B31C119AFB00E0F049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10B21C119AFB00E0F049 /* AppDelegate.swift */; };
-		275F10B51C119AFB00E0F049 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10B41C119AFB00E0F049 /* RootViewController.swift */; };
-		275F10B71C119AFB00E0F049 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10B61C119AFB00E0F049 /* DataViewController.swift */; };
-		275F10B91C119AFB00E0F049 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10B81C119AFB00E0F049 /* ModelController.swift */; };
 		275F10BC1C119AFB00E0F049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275F10BA1C119AFB00E0F049 /* Main.storyboard */; };
 		275F10BE1C119AFB00E0F049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275F10BD1C119AFB00E0F049 /* Assets.xcassets */; };
 		275F10C11C119AFB00E0F049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275F10BF1C119AFB00E0F049 /* LaunchScreen.storyboard */; };
 		275F10CC1C119AFB00E0F049 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10CB1C119AFB00E0F049 /* SampleTests.swift */; };
 		275F10D71C119AFB00E0F049 /* SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10D61C119AFB00E0F049 /* SampleUITests.swift */; };
-		275F10E51C12DF1500E0F049 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10E41C12DF1500E0F049 /* WebViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		275F10E71C12DF5400E0F049 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10E61C12DF5400E0F049 /* ImageViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		275F10E91C13048E00E0F049 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F10E81C13048E00E0F049 /* image.png */; settings = {ASSET_TAGS = (); }; };
-		275F10EB1C13053000E0F049 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 275F10EA1C13053000E0F049 /* index.html */; settings = {ASSET_TAGS = (); }; };
+		275F10F31C13E2E300E0F049 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 275F10F11C13E2E300E0F049 /* image.png */; settings = {ASSET_TAGS = (); }; };
+		275F10F41C13E2E300E0F049 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 275F10F21C13E2E300E0F049 /* index.html */; settings = {ASSET_TAGS = (); }; };
+		275F10FA1C13E2F400E0F049 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10F51C13E2F400E0F049 /* DataViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		275F10FB1C13E2F400E0F049 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10F61C13E2F400E0F049 /* ImageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		275F10FC1C13E2F400E0F049 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10F71C13E2F400E0F049 /* ModelController.swift */; settings = {ASSET_TAGS = (); }; };
+		275F10FD1C13E2F400E0F049 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10F81C13E2F400E0F049 /* RootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		275F10FE1C13E2F400E0F049 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10F91C13E2F400E0F049 /* WebViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,6 @@
 /* Begin PBXFileReference section */
 		275F10AF1C119AFB00E0F049 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275F10B21C119AFB00E0F049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		275F10B41C119AFB00E0F049 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		275F10B61C119AFB00E0F049 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		275F10B81C119AFB00E0F049 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		275F10BB1C119AFB00E0F049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		275F10BD1C119AFB00E0F049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		275F10C01C119AFB00E0F049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,10 +52,13 @@
 		275F10D21C119AFB00E0F049 /* SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		275F10D61C119AFB00E0F049 /* SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITests.swift; sourceTree = "<group>"; };
 		275F10D81C119AFB00E0F049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		275F10E41C12DF1500E0F049 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		275F10E61C12DF5400E0F049 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-		275F10E81C13048E00E0F049 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
-		275F10EA1C13053000E0F049 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		275F10F11C13E2E300E0F049 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = Resources/image.png; sourceTree = "<group>"; };
+		275F10F21C13E2E300E0F049 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = Resources/index.html; sourceTree = "<group>"; };
+		275F10F51C13E2F400E0F049 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataViewController.swift; path = Controllers/DataViewController.swift; sourceTree = "<group>"; };
+		275F10F61C13E2F400E0F049 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = Controllers/ImageViewController.swift; sourceTree = "<group>"; };
+		275F10F71C13E2F400E0F049 /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelController.swift; path = Controllers/ModelController.swift; sourceTree = "<group>"; };
+		275F10F81C13E2F400E0F049 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = Controllers/RootViewController.swift; sourceTree = "<group>"; };
+		275F10F91C13E2F400E0F049 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = Controllers/WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,11 +141,11 @@
 		275F10EE1C13E1AE00E0F049 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				275F10B41C119AFB00E0F049 /* RootViewController.swift */,
-				275F10B61C119AFB00E0F049 /* DataViewController.swift */,
-				275F10B81C119AFB00E0F049 /* ModelController.swift */,
-				275F10E41C12DF1500E0F049 /* WebViewController.swift */,
-				275F10E61C12DF5400E0F049 /* ImageViewController.swift */,
+				275F10F51C13E2F400E0F049 /* DataViewController.swift */,
+				275F10F61C13E2F400E0F049 /* ImageViewController.swift */,
+				275F10F71C13E2F400E0F049 /* ModelController.swift */,
+				275F10F81C13E2F400E0F049 /* RootViewController.swift */,
+				275F10F91C13E2F400E0F049 /* WebViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -153,8 +153,8 @@
 		275F10F01C13E20D00E0F049 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				275F10E81C13048E00E0F049 /* image.png */,
-				275F10EA1C13053000E0F049 /* index.html */,
+				275F10F11C13E2E300E0F049 /* image.png */,
+				275F10F21C13E2E300E0F049 /* index.html */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -262,11 +262,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				275F10EB1C13053000E0F049 /* index.html in Resources */,
+				275F10F41C13E2E300E0F049 /* index.html in Resources */,
 				275F10C11C119AFB00E0F049 /* LaunchScreen.storyboard in Resources */,
 				275F10BE1C119AFB00E0F049 /* Assets.xcassets in Resources */,
 				275F10BC1C119AFB00E0F049 /* Main.storyboard in Resources */,
-				275F10E91C13048E00E0F049 /* image.png in Resources */,
+				275F10F31C13E2E300E0F049 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,11 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				275F10B51C119AFB00E0F049 /* RootViewController.swift in Sources */,
-				275F10B91C119AFB00E0F049 /* ModelController.swift in Sources */,
-				275F10B71C119AFB00E0F049 /* DataViewController.swift in Sources */,
-				275F10E51C12DF1500E0F049 /* WebViewController.swift in Sources */,
-				275F10E71C12DF5400E0F049 /* ImageViewController.swift in Sources */,
+				275F10FD1C13E2F400E0F049 /* RootViewController.swift in Sources */,
+				275F10FE1C13E2F400E0F049 /* WebViewController.swift in Sources */,
+				275F10FA1C13E2F400E0F049 /* DataViewController.swift in Sources */,
+				275F10FC1C13E2F400E0F049 /* ModelController.swift in Sources */,
+				275F10FB1C13E2F400E0F049 /* ImageViewController.swift in Sources */,
 				275F10B31C119AFB00E0F049 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,15 +12,20 @@ import UIKit
 class ModelController: NSObject, UIPageViewControllerDataSource {
 
     var pageCount : Int
-    var imageName : String
-    var webUrl : String
-    var webFile : String
+    var pageData : Dictionary<String,String>!
     override init() {
         self.pageCount = 4
-        self.imageName = "image.png"
-        self.webUrl = "https://www.google.com"
-        self.webFile = "index"
         super.init()
+        self.getData()
+    }
+    
+    func getData()->Void
+    {
+        let filePath = NSBundle.mainBundle().pathForResource("data",ofType:"json")
+        if let data = try? NSData(contentsOfFile:filePath!, options:NSDataReadingOptions.DataReadingUncached)
+        {
+            pageData = try? NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers) as! Dictionary<String,String>
+        }
     }
 
     func viewControllerAtIndex(index: Int, storyboard: UIStoryboard) -> UIViewController? {
@@ -32,19 +37,19 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         case 0 :
             var imageVC : ImageViewController
         imageVC = storyboard.instantiateViewControllerWithIdentifier("ImageViewController") as! ImageViewController
-            imageVC.imageName = imageName
+            imageVC.imageName = pageData["image"]
             return imageVC
         case 1 :
             var webVC : WebViewController
             webVC = storyboard.instantiateViewControllerWithIdentifier("WebViewController") as! WebViewController
             webVC.viewTag = 0
-            webVC.webUrl = self.webUrl
+            webVC.webUrl = pageData["webUrl"]
             return webVC
         case 2 :
             var webVC : WebViewController
             webVC = storyboard.instantiateViewControllerWithIdentifier("WebViewController") as! WebViewController
             webVC.viewTag = 1
-            webVC.webUrl = self.webFile
+            webVC.webUrl = pageData["webFile"]
             return webVC
         case 3 :
             var dataVC : DataViewController

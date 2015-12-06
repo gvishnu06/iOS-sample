@@ -20,6 +20,7 @@
 		275F10FC1C13E2F400E0F049 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10F71C13E2F400E0F049 /* ModelController.swift */; settings = {ASSET_TAGS = (); }; };
 		275F10FD1C13E2F400E0F049 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10F81C13E2F400E0F049 /* RootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		275F10FE1C13E2F400E0F049 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F10F91C13E2F400E0F049 /* WebViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		275F11021C142E3E00E0F049 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 275F11011C142E3E00E0F049 /* data.json */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		275F10F71C13E2F400E0F049 /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelController.swift; path = Controllers/ModelController.swift; sourceTree = "<group>"; };
 		275F10F81C13E2F400E0F049 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = Controllers/RootViewController.swift; sourceTree = "<group>"; };
 		275F10F91C13E2F400E0F049 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = Controllers/WebViewController.swift; sourceTree = "<group>"; };
+		275F11011C142E3E00E0F049 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = Resources/data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			children = (
 				275F10F11C13E2E300E0F049 /* image.png */,
 				275F10F21C13E2E300E0F049 /* index.html */,
+				275F11011C142E3E00E0F049 /* data.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				275F10F41C13E2E300E0F049 /* index.html in Resources */,
+				275F11021C142E3E00E0F049 /* data.json in Resources */,
 				275F10C11C119AFB00E0F049 /* LaunchScreen.storyboard in Resources */,
 				275F10BE1C119AFB00E0F049 /* Assets.xcassets in Resources */,
 				275F10BC1C119AFB00E0F049 /* Main.storyboard in Resources */,
